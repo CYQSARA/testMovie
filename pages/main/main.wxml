@@ -1,0 +1,13 @@
+<view class='content'>
+  <swiper indicator-dots="true" autoplay="true" interval="3000" duration="3000">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" style='width:100%;height:160px;' />
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <import src="../template/movietpl"/>
+  <template is="movies" data="{{movies}}"/>
+  
+</view>

@@ -1,0 +1,40 @@
+{
+  "pages":[
+    "pages/main/main",
+    "pages/recommend/recommend",
+    "pages/search/search",
+    "pages/detail/detail"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#2B2B2B",
+    "navigationBarTitleText": "LittleMovie",
+    "navigationBarTextStyle":"white"
+  },
+ "tabBar": {
+   "color":"#dddddd",
+   "selectedColor":"#3cc51f",
+   "borderStyle":"black",
+   "backgroundColor":"#2B2B2B",
+  "list": [
+    {
+      "pagePath": "pages/main/main",
+      "iconPath":"images/dy-1.png",
+      "selectedIconPath": "images/dy.png",
+      "text": "影院热映"
+    },
+    {
+      "pagePath": "pages/recommend/recommend",
+      "iconPath": "images/tj-1.png",
+      "selectedIconPath": "images/tj.png",
+      "text": "电影推荐"
+    },
+    {
+      "pagePath": "pages/search/search",
+      "iconPath": "images/search-1.png",
+      "selectedIconPath": "images/search.png",
+      "text": "查询电影"
+    }
+  ]
+}
+}
